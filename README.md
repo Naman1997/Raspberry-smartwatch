@@ -20,6 +20,22 @@ This project uses a number of open source projects and apps to work properly:
 * [PhonePI Sample Server](https://github.com/priyankark/PhonePi_SampleServer) - Sample server from the creator of the awesome app.
 * [Python 3.6.8](https://www.python.org/downloads/release/python-368/) - Any other version of Python 3 should aslo work
 
+### Installation
+
+Install the dependencies as shown:
+
+```sh
+$ pip3 install flask
+$ pip3 install flask_sockets
+$ pip3 install asyncio
+$ pip3 install traceback
+$ pip3 install subprocess
+$ pip3 install asyncpushbullet
+$ pip3 install matplotlib
+$ pip3 install scipy
+$ pip3 install numpy
+```
+
 # Streaming sensor data from your smartphone to your raspberry pi:
 First of all make sure you have installed *PhonePi app* as instructed above. Now connect your smartphone to the same network as your raspberry. Then follow the commands given below:
  * First clone the project as shown below
