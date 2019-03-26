@@ -74,3 +74,4 @@ Once you've completed the instructions given above, then you can run the script 
 $ python3 step_counter_peaks.py
 ```
 * This will generate a graph and print out the number of steps taken in the terminal.
+* Your accuracy might vary depending upon the quality of sensor and the value height you set inside *accelerometer.py*. You might need to tinker around with the height value(on line 33) till you get accurate results.
