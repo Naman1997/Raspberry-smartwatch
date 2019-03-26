@@ -31,7 +31,7 @@ $ git clone https://github.com/Naman1997/Raspberry_smartwatch
 ```sh
 $ ifconfig
 ```
-* Your ip would be in the second line next to *inet*. Note it down, it will be useful later. I will refer it as YOUR_IP
+* Your ip would be in the second line next to *inet*. Note it down, it will be useful later. I will refer to it as YOUR_IP
 * Next cd into the 'Raspberry_smartwatch' directory and run the following command
 ```sh
 $ python3 PhonePi.py
