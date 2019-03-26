@@ -42,3 +42,19 @@ $ YOUR_IP:5000
 ```
 * You should now be able to send various sensor data streams to your Pi by toggling them in the app.
 * When you close the app, your data steams will be saved in their respected files inside the same directory.
+
+# Counting steps with your smartphone's accelerometer:
+Once you've completed the instructions given above, then you can run the script for counting steps. Follow the commands given below:
+ * Start the server as shown above
+ * Open your PhonePi App
+ * Toggle only the *Accelerometer* switch
+ * Now walk with the app still running
+ * Toggle the switch again and close the app
+ * You might have to press Ctrl+C to stop the server on your Raspberry Pi
+ * Your data should have been saved. To check it open *acceleometer.txt* file and check.
+ * Now that you have the data; run:
+
+```sh
+$ python3 step_counter_peaks.py
+```
+* This will generate a graph and print out the number of steps taken in the terminal.
