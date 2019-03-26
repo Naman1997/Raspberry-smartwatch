@@ -10,7 +10,7 @@ from asyncpushbullet import AsyncPushbullet, InvalidKeyError, PushbulletError, L
 
 async def _run():
     #MY API KEY
-    api_key = "o.3uyRuJaGGaD9AftYkIZZkbX1MreMMCeb"
+    api_key = "#YOUR API KEY"
     async with AsyncPushbullet(api_key) as pb:
         async with LiveStreamListener(pb) as pl:
             print("Awaiting pushes...")
