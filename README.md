@@ -75,3 +75,31 @@ $ python3 step_counter_peaks.py
 ```
 * This will generate a graph and print out the number of steps taken in the terminal.
 * Your accuracy might vary depending upon the quality of sensor and the value height you set inside *accelerometer.py*. You might need to tinker around with the height value(on line 33) till you get accurate results.
+
+# Recieving your smartphone notifications on your RPi smartwatch:
+Follow the commands given below:
+ * Go to [Pushbullet's Website](https://www.pushbullet.com/) and sign into your account.
+ * Go to *Settings* and click on *Create Access Token*
+ * This will give you an access token with which you can access your phone's messsges.
+ * Copy the access token
+ * Edit the data.py file and instead of #YOUR API KEY(on line 13), paste your access token.
+ * Now run the python script
+```sh
+$ python3 data.py
+```
+* Now open your Pushbullet App in your smartphone and send a message to *All devices* to check if the connection has established.
+
+# Sending commands and to-do files to your RPi smartwatch:
+I'll be assuming that you completed the section just above this one. Follow the commands given below:
+ * Run the command to start the service
+```sh
+$ python3 data.py
+```
+ * Open your Pushbullet App in your smartphone and attach a .txt to-do file to all devices. The script will recieve the file and print out its contents in the terminal.
+* In order to run shell commands from your smartphone, type a '$' sign before sending the instruction from your smartphone.
+* For example: To download a file on your smartwatch, type the following in your Pushbullet smartphone app
+```sh
+$ wget APP_LINK
+```
+* Here APP_LINK refers to the link address of the file you want to downlaod
+* This can come in handy if you want to download files on your PC as well. Just run the same script on your linux PC and *voila!*
