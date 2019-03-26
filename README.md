@@ -41,3 +41,4 @@ $ python3 PhonePi.py
 $ YOUR_IP:5000
 ```
 * You should now be able to send various sensor data streams to your Pi by toggling them in the app.
+* When you close the app, your data steams will be saved in their respected files inside the same directory.
