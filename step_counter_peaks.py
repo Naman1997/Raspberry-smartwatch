@@ -4,7 +4,7 @@ from scipy.signal import find_peaks
 import numpy as np
 
 #*****************************Writing to File**************************
-with open("/root/Documents/accelerometer.txt", "r") as filestream:
+with open("accelerometer.txt", "r") as filestream:
     with open("answers.txt", "w") as filestreamtwo:
         for line in filestream:
             currentline = line.split(",")
@@ -16,7 +16,7 @@ with open("/root/Documents/accelerometer.txt", "r") as filestream:
 
 a = []
 b = []
-with open("/root/Documents/answers.txt", "r") as m:
+with open("answers.txt", "r") as m:
     for index,line in enumerate(m):
         a.append(index)
         b.append(line)
