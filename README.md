@@ -50,7 +50,7 @@ $ ifconfig
 * Your ip would be in the second line next to *inet*. Note it down, it will be useful later. I will refer to it as YOUR_IP
 * Next cd into the 'Raspberry_smartwatch' directory and run the following command
 ```sh
-$ python3 PhonePi.py
+$ python3 Pier.py
 ```
 * This will start your flask server and expose port 5000 in the network. Now open the PhonePi app in your smartphone and in the text enrty field type
 ```sh
