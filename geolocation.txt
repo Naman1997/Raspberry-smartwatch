@@ -1,8 +1,0 @@
-{"mocked":false,"timestamp":1551119423195,"coords":{"speed":0,"heading":0,"accuracy":1299.9990234375,"longitude":80.1437306,"altitude":0,"latitude":12.848124}}
-{"mocked":false,"timestamp":1551119413199,"coords":{"speed":0,"heading":0,"accuracy":1261,"longitude":80.1434553,"altitude":0,"latitude":12.8483515}}
-{"mocked":false,"timestamp":1551119630559,"coords":{"speed":0,"heading":0,"accuracy":600,"longitude":80.142335,"altitude":0,"latitude":12.8484267}}
-{"mocked":false,"timestamp":1551119650639,"coords":{"speed":0,"heading":0,"accuracy":1299.9990234375,"longitude":80.1437306,"altitude":0,"latitude":12.848124}}
-{"mocked":false,"timestamp":1551119837679,"coords":{"speed":0,"heading":0,"accuracy":1299.9990234375,"longitude":80.1437306,"altitude":0,"latitude":12.848124}}
-{"mocked":false,"timestamp":1551119883312,"coords":{"speed":0,"heading":0,"accuracy":1299.9990234375,"longitude":80.1437306,"altitude":0,"latitude":12.848124}}
-{"mocked":false,"timestamp":1551120871081,"coords":{"speed":0,"heading":0,"accuracy":1299.9990234375,"longitude":80.1437306,"altitude":0,"latitude":12.848124}}
-{"mocked":false,"timestamp":1551166939527,"coords":{"speed":0,"heading":0,"accuracy":1185,"longitude":80.1499905,"altitude":0,"latitude":12.8451948}}
